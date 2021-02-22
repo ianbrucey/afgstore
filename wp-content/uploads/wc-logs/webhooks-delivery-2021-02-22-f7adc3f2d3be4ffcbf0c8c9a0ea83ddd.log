@@ -1,0 +1,552 @@
+2021-02-22T13:28:37+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7edd82dce0143936cb6724052401c5b1
+            [Date] => Feb 22, 2021 @ 13:28
+            [URL] => http://registryapps.foundanimals.org/frontend-sb
+            [Duration] => 0.897
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => dqR+ClWs+2a2LquGjHDIJGtCgPrgb0y59d/HGVbtQ40=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 7edd82dce0143936cb6724052401c5b1
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 301
+                    [Message] => Moved Permanently
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Feb 2021 13:28:37 GMT
+                                    [server] => Apache/2.4.18 (Ubuntu)
+                                    [location] => http://registryapps.foundanimals.org/frontend-sb/
+                                    [content-length] => 352
+                                    [content-type] => text/html; charset=iso-8859-1
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T13:28:37+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => a791dbbcfcaca86773a179e75a6c11b4
+            [Date] => Feb 22, 2021 @ 13:28
+            [URL] => http://localhost/random/test
+            [Duration] => 0.06077
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 8d+r1fh1sL4NSQDLpeA3A0/bw99dq83gNR46FGLoAxA=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => a791dbbcfcaca86773a179e75a6c11b4
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 13:28:37 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IjljVWlZQ1h3MzM1WThrMGNVM2ZGbXc9PSIsInZhbHVlIjoic0ZSeE53T2VvbGswZWllY0x2M2JkbDloTnAycUtHdUw5cllrRFhydlRIT0tnUTdmbElGNjY4dU93UXZyMWErNjBScVVMZ2xTNVk1VW8vQjBBQWRuUDN1MnRFaTdqZjd2ZzRLZEVYWEZKUFY1RkYxemtqNXd5RWlxQ0N4aXVVa1QiLCJtYWMiOiIyZTNmMDBlZGVlNjU4ODM4OWE4YzZlNmQ0NjJhYTk4MmVjM2E1ZTQ3M2E0M2E0MjY0ZDYyNmJhZTZlODI3YWRlIn0%3D; expires=Mon, 22-Feb-2021 15:28:37 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6IlRNODlVWTFuQnB1QlpKZjkwQWQ3NVE9PSIsInZhbHVlIjoiVFUrMW92ZGNtbU1WSEk5UU5jT2FKakhKSlNaWUR1MlY0QzZieitqUjZKRVE4TWNpcytNb3A5WWdHWVFIeUQvdU50cjNQcjBxeEY4dTVEaHNOS09vMXNiSFpFK29QUkpNR0R1MUt5eFJOZ1ZwWVB0OEVNTURZa281ajhnendicGwiLCJtYWMiOiI4MTI2NjI2Nzg1MGQxOTUwMGYxMWEwMjYwNTViN2M5MmE4NzM3NmVkMzE1ZmNjZDgzZDc0NGM0MWEzODYzNmJkIn0%3D; expires=Mon, 22-Feb-2021 15:28:37 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T13:34:38+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 3ea729b368b12c7dc6adc8ffdc421fa3
+            [Date] => Feb 22, 2021 @ 13:34
+            [URL] => http://registryapps.foundanimals.org/frontend-sb
+            [Duration] => 0.36093
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => osC4H6qqmztlm13mdraisatScLq9r1u2Imd+8xU21mA=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 3ea729b368b12c7dc6adc8ffdc421fa3
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 301
+                    [Message] => Moved Permanently
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Feb 2021 13:34:38 GMT
+                                    [server] => Apache/2.4.18 (Ubuntu)
+                                    [location] => http://registryapps.foundanimals.org/frontend-sb/
+                                    [content-length] => 352
+                                    [content-type] => text/html; charset=iso-8859-1
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T13:34:38+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 95ea9d45ed961f05d3a18761370e341f
+            [Date] => Feb 22, 2021 @ 13:34
+            [URL] => http://localhost/random/test
+            [Duration] => 0.05951
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => Pr0haFuQkJReq5pQNXkPERvjS2nOJU8ny8Yt7za0JYA=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 95ea9d45ed961f05d3a18761370e341f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 13:34:38 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IlNwdlNlYnFXV3ZzM2cwb2N1SHdZbVE9PSIsInZhbHVlIjoiVnJJWk5lazNkUG4zL0pBWDhxYld6M2ZESTR6empZbGxiQ3ZQRFllWnlRQndZdTdqQ0hQN1ZzbWRZTDgzdlplTnhwWE5YT09ZaUdrM2NkdHJXR2hmSDJIb1VZNWNBNDVPcFE2cWEyeXBTd2YwVk9ZZHA5bmozSnhYUnlFWENMazgiLCJtYWMiOiJlMGY2Mjk5NTgzNzVlNWE4YTBiODczYjEyNmQzNDRjM2UxM2EyNzU4MDVmYTAyOTE4NTg2MWRhMDUyNjk3NTIxIn0%3D; expires=Mon, 22-Feb-2021 15:34:38 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6IlZGalpqZk9pbkVFOHhoZEt2b1RoUmc9PSIsInZhbHVlIjoiajR3bzdYcjBQWlhGUVlhSzBkVUFRenJMME9RSTdvK3FCOHdJZ2p2eWYyZHJtS0dHWFY2R2dvenJzdm5wYXNpOEFyd0FPdXZIMUFnckNLT3ZiWDErS3hXbzVIWER6T3hGOExZd1BaMXRDa0ZoRU03MzYyL241MjNxakdXUHdXejEiLCJtYWMiOiJlMmI2YTFjODk1NzFlODZmMDM3YmJlZmE1NjQyMTJmNDEwYTY3YjY5NGE0N2ZmNWI4ZjU3OWVjMDE2YjgxNTYzIn0%3D; expires=Mon, 22-Feb-2021 15:34:38 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T13:41:18+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f3beff3da6b74f433ef191bec971ceda
+            [Date] => Feb 22, 2021 @ 13:41
+            [URL] => http://localhost/random/test
+            [Duration] => 0.36187
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => tYQa4tmB1GA5NM9nRRzdosIYgL9pNZ2NwoQ1f9a62f0=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => f3beff3da6b74f433ef191bec971ceda
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 13:41:18 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6ImRGSk1EdzdReUtKa21mMkhIelBYbXc9PSIsInZhbHVlIjoicm1kRWJ6LzQrR1NKWFVacHZRV0FENzRwQWJaRC9qTE9MSlVnMFZzWEkyVFVaVVFUQWs4MkFDd1ZUTGwwSHpmM0FSd3FkS05ZY3NEN05ydmRiQllBTFhmcHI5L0JYSU5sQ3BEekZCNHlmWVNXdUNpdkkyTEQyYndqeHA3aHY4dnciLCJtYWMiOiIzYTNlYzg5MWMyMjAxYTU5MTk2NTIyZWEzMjZhODZiZTlhZTQxNzA4YjliMWNjMGNkM2MwZDRiNjAyYzU1NjI1In0%3D; expires=Mon, 22-Feb-2021 15:41:18 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6IlNNREp3M0ZLOTZJOHNYcUFxQjZadVE9PSIsInZhbHVlIjoiZGFIbTBwREdqRjV5UEdIbkRNTkhVN3pDaWJKZkpRa2xTQnAwYm9UQ1RyZGdibEFqbGEvaW9NNFVuTW5Qb2xpMmFpeGc4bkExWkFXRC9LTGpQTW1Ya0tzZWZUbXVFOG5Ddk5aR1lvcytKZ0d4SmNSelFmMTZ1QVZJekU2cVloaEEiLCJtYWMiOiI3YWQ4N2NmMzE4MTc0MDBkNzNjNTM1NmNlNTBjYThjMjlmZjdhYjAwYjhhNjdkMmExNzU3ZmZlMjA0YzhiMDZiIn0%3D; expires=Mon, 22-Feb-2021 15:41:18 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T13:58:51+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9b0349797e20145e7f3ecddab230253e
+            [Date] => Feb 22, 2021 @ 13:58
+            [URL] => http://localhost/random/test
+            [Duration] => 0.40725
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => /dXq/WHkfNbNwgdzuX7RyO6rZMJiF8FXIjFgjRVVBI4=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 9b0349797e20145e7f3ecddab230253e
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 13:58:51 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6InNrR3hSMU9SMXRZeFpVOHVFUTdENnc9PSIsInZhbHVlIjoiUHpndnhmbzExZzJld3ZnK1E1bDNQK3ZTdmo5TnJxemFKS2Noajc5bnE5MGcxSXRUZzV3VXZtNEp0Tk1lWjFJdHNBbjZhbWlHTFBNSTRhZWNaelU0SWRPbTYzY2xjRiswQnRjOFQ4TkozWTRUZFl0TUQ1cmV2djVrc3pnc05vMDYiLCJtYWMiOiI0MDBkZWUzNjNlMDBhMzA5Zjk3MWQ3Njk2OWQzYWYxZGE5MjY4YWM5MmQ4MzM1MWI0ODc4YzJkODhkYjdhYTE3In0%3D; expires=Mon, 22-Feb-2021 15:58:51 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6IlYzRkpPNGxjQ1hPcWxxTEpUdGJmRHc9PSIsInZhbHVlIjoieHFvcUIzcG05cjZwVEUxRGNkUXpTU0FVdUhvWEpLMExBZi9vM0FtVUIxZHZMcHdaclZhZ1dXSmZDL3JWRzh0RHFrT01pTVZUL3liQzVXNHk0WHN2QVphWk5jSEdMYm1OL0FvUmFtN1ovV0Y0U0MxTEVDRVJaNTZXZlNlMExnL0wiLCJtYWMiOiJlMGIzOTJkMzI5NTZjZjhlNTNiMWUxYjQ4MjJiMzUwODQ1NmEyMjIxODZlYTdiYWJmZmM3NzAwNjRlZTg4NzU5In0%3D; expires=Mon, 22-Feb-2021 15:58:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T14:00:42+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 68721f60dae1dbf6c838890f65b8f7d8
+            [Date] => Feb 22, 2021 @ 14:00
+            [URL] => http://registryapps.foundanimals.org/frontend-sb
+            [Duration] => 0.49794
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => tdvBsixoHwD4fA26MQspUas+UcbyVY/BBVF47UmBvug=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 68721f60dae1dbf6c838890f65b8f7d8
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 301
+                    [Message] => Moved Permanently
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Feb 2021 14:00:42 GMT
+                                    [server] => Apache/2.4.18 (Ubuntu)
+                                    [location] => http://registryapps.foundanimals.org/frontend-sb/
+                                    [content-length] => 352
+                                    [content-type] => text/html; charset=iso-8859-1
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T14:00:42+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bba5ac3e1f5bb610b95b113b97e5f0ad
+            [Date] => Feb 22, 2021 @ 14:00
+            [URL] => http://localhost/random/test
+            [Duration] => 0.06467
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => F1DR/q1MDoion1O9kuiHteVtECgN8JWxzYMpFKTmEfs=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => bba5ac3e1f5bb610b95b113b97e5f0ad
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 14:00:42 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6InUzSG5maHlyVmRvM3RtcFJOQWF0ZEE9PSIsInZhbHVlIjoiMVNiTVhpclZ3WVkzaGJjdDZySkpnN0ZUcklXYWJpbDJQbUhJRE16Q3JibjZBOWdRVDkyc2kxWnBIUEFOVVhCUlVvQnBGS25wYlkzRlJDanA0T3FLQmdieVBmOE5tMDUwM2NpR3FnejY0ZWlvL1ZsYXZ0MkJ2L0RERU5zNkprdE0iLCJtYWMiOiJlOGU1MDAzNTBmNWU4YzNkNTJhYWYyNzg4OWEzMThlZTA0Mjg4NmRkZmVmNTZmMzRkODM0NDg5MWI2ZTgyNDc0In0%3D; expires=Mon, 22-Feb-2021 16:00:42 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6ImNvVHpPTUxEY0lEWmtuMTFWVitiS3c9PSIsInZhbHVlIjoiVG9pcHQrR1N6MTkyWFVFV285OERYSXE0NGw2dVpySVZTNHFvampjam1aQ3BVZlcyZFNHaG9aUkFyamlmQS9vbmVFTXFsUjdqeHdxSzFydVlXaU91dlFhTVdyUHNXR1U5OFBMSGdET2ZTei9IekQvamxqUDhOM0h6ZXRsYkVKanIiLCJtYWMiOiJjYjM4MjA3MTE3MjQ1NDFkMjIxMWNjYzU3YzZjNDBhZGNiYTljZGNjN2I4NTUxMjM2N2JjN2E3MGRmN2Q5NWMyIn0%3D; expires=Mon, 22-Feb-2021 16:00:42 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T15:20:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 21ccb63858f05dca21cf9948c277603a
+            [Date] => Feb 22, 2021 @ 15:20
+            [URL] => http://registryapps.foundanimals.org/frontend-sb
+            [Duration] => 0.5612
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => nLVQ6mDz6xxM2nndX9EIUR7k+7ZxVPwaORDjMg+s2HQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 21ccb63858f05dca21cf9948c277603a
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 301
+                    [Message] => Moved Permanently
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Feb 2021 15:20:11 GMT
+                                    [server] => Apache/2.4.18 (Ubuntu)
+                                    [location] => http://registryapps.foundanimals.org/frontend-sb/
+                                    [content-length] => 352
+                                    [content-type] => text/html; charset=iso-8859-1
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-02-22T15:20:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 0b98429e28dba48153f8640b79a818fe
+            [Date] => Feb 22, 2021 @ 15:20
+            [URL] => http://localhost/random/test
+            [Duration] => 0.06083
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50398)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => VY8dNajh+FFi9TnI+yHmUpM1C+FbLMqql4us0Ae4ts8=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 0b98429e28dba48153f8640b79a818fe
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [content-type] => text/html; charset=UTF-8
+                                    [x-powered-by] => PHP/7.3.27
+                                    [cache-control] => no-cache, private
+                                    [date] => Mon, 22 Feb 2021 15:20:11 GMT
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => XSRF-TOKEN=eyJpdiI6IndTV0dsYUlpci8ybWNSaUVDRUJGbVE9PSIsInZhbHVlIjoiM3p0Q3JhWWhOTEwvdVJDbWJMT3JCQjRKMXhjUHltQm9ITXZkcnNmK2hxZDF0ZThtcFhqaUZqNlZSKzJhbDFZUzNTWkc2WU83TmsxVEorQUJNN3dmeGRydWo0QlJvR0FLZFl5eFlvNHU4OEkrZ3hoMWhLZkFQaWVjSDltdUIvVjkiLCJtYWMiOiI1NDAxNGIyMjkxZDBmZjAzZGRkYjIxNGE5ZjE0ZmYzMmFhZGE5ZWQ3NWFjMDgxMTY4M2Y4ZTEwNzU5Mjg4OTEwIn0%3D; expires=Mon, 22-Feb-2021 17:20:11 GMT; Max-Age=7200; path=/; samesite=lax
+                                            [1] => bingo_time_session=eyJpdiI6ImNPcUFwWm1adjZTMHkwZzJwczdxRHc9PSIsInZhbHVlIjoid3IzTTNkVFdRbmlqWDBlMCtxRHRIQ1BmNnoycVVvaTJRSWxzM0k0MDAydTFNOFpGcitvRUZHc2FRdmcyRnIxR203bGFQaTVSZy9Xa2tNQVpKc21xbkJ6a1FGYkdNRkVmYk83N2h2M0JyTW1aWkkybllhaTlmUHJiNmJQNzNtMDQiLCJtYWMiOiIzMzNmODBiMjRmMTQzZDc0YTE0NGQ0YzdlNWFhZThkNzU5MGIwYTIxMzI2ZTg0ODAxNmVmYzNkMWYxN2E2ZTdiIn0%3D; expires=Mon, 22-Feb-2021 17:20:11 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+                                        )
+
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

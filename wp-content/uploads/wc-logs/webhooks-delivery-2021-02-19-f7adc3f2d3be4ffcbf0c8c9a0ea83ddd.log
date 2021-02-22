@@ -1,0 +1,51 @@
+2021-02-19T02:04:02+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 8cce8c18bfe304eb1ffa14636d0753f5
+            [Date] => Feb 19, 2021 @ 2:04
+            [URL] => http://registryapps.foundanimals.org/frontend-sb
+            [Duration] => 0.48565
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.0.0 Hookshot (WordPress/5.7-beta3-50380)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost:8888/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => uvlbXZoWQAYvU9Ay8ZumOfk7LQFawy/Ei8ktu8JD00Y=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 8cce8c18bfe304eb1ffa14636d0753f5
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 301
+                    [Message] => Moved Permanently
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Fri, 19 Feb 2021 02:04:02 GMT
+                                    [server] => Apache/2.4.18 (Ubuntu)
+                                    [location] => http://registryapps.foundanimals.org/frontend-sb/
+                                    [content-length] => 352
+                                    [content-type] => text/html; charset=iso-8859-1
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
